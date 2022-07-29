@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sign Up form using Bootstrao-5</title>
+
+    <!-- Bootstrap 5 CDN Link -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <section class="wrapper">
+        <div class="container">
+            <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 col-xl-4 offset-xl-4">
+                <div class="logo text-center">
+                    <img src="images/log.png" class="img-fluid" alt="logo">
+                </div>
+                <form class="rounded bg-white  shadow p-5">
+                    <h3 class="text-dark fw-bolder fs-4 mb-2 text-center">Create an Account</h3>
+                    <div class="fw-normal text-muted mb-2 text-center"> 
+                        Sign in here ? <a href="./login.html" class="text-primary fw-bold text-decoration-none">Already have an account</a>
+                    </div>
+
+                    <div class="text-center text-muted text-uppercase mb-2">or</div>
+
+                    <a href="#" class="btn btn-light login_With w-100 mb-4">
+                        <img src="images/google-icon.svg" class="img-fluid me-3">Sign in with Google</a>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingFirstName" placeholder="First Name">
+                        <label for="floatingInput">First Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingLastName" placeholder="Last Name">
+                        <label for="floatingInput">Last Name</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                        <span class="password-info mt-2">
+                            Use 8 or more characters with a mix of letters, numbers & symbols.
+                        </span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingConfirmPassword" placeholder="Password">
+                        <label for="floatingPassword">Confirm Password</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" checked>
+                        <label class="form-check-label" for="gridCheck">
+                            I Agree <a href="#" class="text-decoration-none">Terms & Condition.</a>
+                        </label>
+                    </div>
+                
+                    <button type="submit" class="btn btn-primary submit_btn w-100 my-4">Continue</button>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+</body>
+</html>
